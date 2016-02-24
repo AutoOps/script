@@ -5055,7 +5055,7 @@ ALTER TABLE history_uint PARTITION BY RANGE (clock)
 ALTER TABLE history_str PARTITION BY RANGE (clock) 
 (PARTITION p0 VALUES LESS THAN (8888888888));
 DELIMITER //
-CREATE PROCEDURE create_prtition()
+CREATE PROCEDURE create_partition()
 BEGIN
 DECLARE v_sql1 varchar(100);
 DECLARE v_sql4 varchar(100);
@@ -5082,5 +5082,5 @@ CREATE EVENT myevent
 ON SCHEDULE 
 EVERY 7 day
 DO
-call create_prtition();//
+call create_partition();//
 DELIMITER ;
