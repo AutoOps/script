@@ -1,0 +1,1 @@
+zabbix 自定义key文件和使用脚本 请放置到 /etc/zabbix/bin 下 和 /etc/zabbix/config.d/下 即可生效

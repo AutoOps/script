@@ -1,2 +1,1 @@
-python zabbix api - https://github.com/gescheit/scripts/tree/master/zabbix
-
+经过测试可以适配zabbix 3.0 一下的版本
