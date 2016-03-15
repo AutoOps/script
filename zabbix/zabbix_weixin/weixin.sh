@@ -10,7 +10,7 @@ do
 	        env python $SCRIPT
 	        continue
 	else
-	        echo $2 > $FILE
+	        echo $1 > $FILE
 	        env python $SCRIPT
 	fi
 	exit
